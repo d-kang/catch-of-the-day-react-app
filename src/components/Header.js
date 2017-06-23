@@ -1,6 +1,7 @@
 import React from 'react';
-
-export const Header = (props) => {
+import Fish from './Fish'
+export class Header extends React.Component {
+  render() {
     return (
       <header className="top">
         <h1>
@@ -11,7 +12,18 @@ export const Header = (props) => {
           </span>
           Day
         </h1>
-        <h3 className="tagline"><span>{props.tagline}</span></h3>
+        <h3 className="tagline"><span>{this.props.tagline}</span></h3>
+
+        <ul className="list-of-fishes">
+          {
+            Object
+              .keys(this.props.fishes)
+              .map(key => <Fish />)
+          }
+          {console.log(this)}
+        </ul>
       </header>
     )
+  }
+
 }

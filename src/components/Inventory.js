@@ -7,7 +7,7 @@ export default class Inventory extends React.Component {
       <div id="inventory">
         <h1>Inventory</h1>
         <AddFishForm addFish={this.props.addFish}/>
-        <button>Load Sample Fishes</button>
+        <button onClick={this.props.loadSamples}>Load Sample Fishes</button>
       </div>
     )
   }
