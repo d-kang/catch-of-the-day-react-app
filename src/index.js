@@ -1,9 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+import Root from './components/Root';
 // import './css/style.css';
 import './css-other/style.css';
 
 
 
-render(<App />, document.querySelector('#main'))
+
+
+
+render(<Root />, document.querySelector('#main'))
