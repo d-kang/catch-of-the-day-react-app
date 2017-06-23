@@ -3,7 +3,10 @@ import React from 'react'
 export default class Inventory extends React.Component {
   render() {
     return (
-      <h1>Inventory</h1>
+      <div id="inventory">
+        <h1>Inventory</h1>
+        hi
+      </div>
     )
   }
 }
