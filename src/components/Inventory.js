@@ -6,7 +6,7 @@ export default class Inventory extends React.Component {
     return (
       <div id="inventory">
         <h1>Inventory</h1>
-        <AddFishForm />
+        <AddFishForm addFish={this.props.addFish}/>
       </div>
     )
   }
