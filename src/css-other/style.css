@@ -7,16 +7,20 @@
 	height: 100%;
 	width: 100%;
 }*/
-#inventory, #header, #order{
+#inventory, .top, #order{
 	width: 237px;
 	height: 237px;
-	border: solid 6px black;
+
 	padding: 10px 17px;
 	font-family: arial, sans-serif;
 	font-weight:  600;
 	line-height: 105%;
 	box-sizing: border-box;
-  border: 1px solid green ;
+  border: solid 6px black;
+}
+
+.ofThe {
+  font-size: 10px;
 }
 
 .catch-of-the-day{
