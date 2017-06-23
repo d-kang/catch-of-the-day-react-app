@@ -2,9 +2,9 @@ import React from 'react'
 import { BrowserRouter, Match, Miss } from 'react-router';
 import App from './App';
 import StorePicker from './StorePicker'
-import NotFound from './NotFound'
+import { NotFound } from './NotFound'
 
-const Root = () => {
+export const Root = () => {
   return (
     <BrowserRouter>
       <div>
@@ -15,6 +15,3 @@ const Root = () => {
     </BrowserRouter>
   )
 }
-
-
-export default Root;
