@@ -8,8 +8,8 @@
 	width: 100%;
 }*/
 #inventory, .top, #order{
-	width: 450px;
-	height: 600px;
+	width: inherit;
+	height: inherit;
 
 	padding: 10px 17px;
 	font-family: arial, sans-serif;
@@ -43,4 +43,18 @@ form textarea {
 .other {
  display: flex;
  flex-direction: column;
+}
+
+.menu-fish {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.price {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
