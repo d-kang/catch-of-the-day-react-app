@@ -3,6 +3,7 @@ import { Header } from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
 import sampleFishes from '../sample-fishes'
+
 export default class App extends React.Component {
   constructor() {
     super();
@@ -45,7 +46,7 @@ export default class App extends React.Component {
 
         <Order />
         <Inventory addFish={this.addFish} loadSamples={this.loadSamples}/>
-        <button onClick={e => this.addFish(e)}></button>
+        {/* {<button onClick={e => this.addFish(e)}></button>} */}
       </div>
     )
   }
