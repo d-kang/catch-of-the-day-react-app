@@ -47,7 +47,7 @@ export default class App extends React.Component {
     return (
       <div className="catch-of-the-day">
         <div className="menu">
-          <Header tagline="Fresh Seafood Market" fishes={this.state.fishes}/>
+          <Header tagline="Fresh Seafood Market" fishes={this.state.fishes} addToOrder={this.addToOrder}/>
 
         </div>
 

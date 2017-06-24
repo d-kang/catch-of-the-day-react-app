@@ -18,7 +18,7 @@ export class Header extends React.Component {
           {
             Object
               .keys(this.props.fishes)
-              .map( (key, i) => <Fish key={i} details={this.props.fishes[key]}/>)
+              .map( (key, i) => <Fish key={i} index={key} details={this.props.fishes[key]} addToOrder={this.props.addToOrder}/>)
           }
           {console.log(this)}
         </ul>
